@@ -103,7 +103,7 @@ Toggle.MouseButton1Click:connect(function()
  if Status.Text == "off" then
   Status.Text = "on"
   Status.TextColor3 = Color3.new(0,185,0)
-  game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = j
+  game.Players.LocalPlayer.Character.Humanoid.JumpPower = j
   Toggle.Text = j
  elseif Status.Text == "on" then
   Status.Text = "off"
